@@ -16,4 +16,5 @@ export class Lesson {
 
     @Column()
     endDate: string;
+    students: string[];
 }
